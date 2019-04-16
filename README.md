@@ -25,3 +25,17 @@ pip install -e .
 ```sh
 flask run
 ```
+
+## run the test
+
+```sh
+pytest
+```
+
+### with coverage report
+
+```sh
+coverage run -m pytest
+coverage report
+coverage html # open htmlcov/index.html in a browser
+```
