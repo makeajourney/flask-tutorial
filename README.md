@@ -11,6 +11,12 @@ export FLASK_APP=flaskr
 export FLASK_ENV=development
 ```
 
+## install the dependent environment
+
+```
+pip install -e .
+```
+
 ## Run the Application
 
 ```
